@@ -14,10 +14,24 @@ public class HelloController {
 		return "Hello World!";
 	}
 	
-	@GetMapping("/nome")
-	public String kaique()
+	@GetMapping("/bsm")
+	public String bsm()
 	{
-		return "The Kaique.";
+		return "Responsabilidade pessoal. <br/>"
+				+ "Mentalidade de crescimento. <br/>"
+				+ "Orientação ao futuro Persistência. <br/>"
+				+ "Comunicação. <br/>"
+				+ "Orientação aos Detalhes. <br/>"
+				+ "Trabalho em equipe. <br/>"
+				+ "Proatividade. <br/>"
+				+ "Persistência. <br/>";
+	}
+	@GetMapping("/objt")
+	public String objt()
+	{
+		return "Responsabilidade pessoal. <br/>"
+				+ "Comunicação. <br/>"
+				+ "Gestao de tempo.";
 	}
 
 }
